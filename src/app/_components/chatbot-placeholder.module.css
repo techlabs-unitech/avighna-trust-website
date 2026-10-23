@@ -1,0 +1,17 @@
+.fab {
+  position: fixed;
+  right: max(20px, env(safe-area-inset-right));
+  bottom: max(20px, env(safe-area-inset-bottom));
+  z-index: 60;
+  display: grid;
+  width: 56px;
+  height: 56px;
+  place-items: center;
+  color: #fff;
+  background: var(--gold-deep);
+  border: 3px solid #fff;
+  border-radius: 50%;
+  box-shadow: 0 10px 26px rgba(20, 53, 98, 0.32);
+  cursor: default;
+  user-select: none;
+}

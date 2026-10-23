@@ -1,0 +1,57 @@
+:root {
+  --paper: #f2f7fc;
+  --paper-light: #ffffff;
+  --forest: #143562;
+  --forest-light: #1f4a86;
+  --gold: #60a4d0;
+  --gold-deep: #306cb4;
+  --ink: #1c2a3d;
+  --ink-soft: #55657a;
+  --line: rgba(20, 53, 98, 0.15);
+  --font-sans: var(--font-geist-sans), Arial, Helvetica, sans-serif;
+  --font-serif: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+  color-scheme: light;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 18px;
+}
+
+body {
+  max-width: 100%;
+  min-height: 100vh;
+  overflow-x: hidden;
+  color: var(--ink);
+  background: var(--paper);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+a:focus-visible,
+summary:focus-visible {
+  outline: 2px solid var(--gold-deep);
+  outline-offset: 4px;
+}
+
+::selection {
+  color: var(--paper);
+  background: var(--forest);
+}

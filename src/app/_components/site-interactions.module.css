@@ -1,0 +1,395 @@
+.toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0 0 20px;
+}
+
+.filterButton,
+.calendarButton,
+.amountButton,
+.categoryButton {
+  min-height: 42px;
+  padding: 9px 14px;
+  border: 1px solid rgba(20, 53, 98, 0.2);
+  border-radius: 2px;
+  color: var(--forest);
+  background: rgba(255, 255, 255, 0.55);
+  font: inherit;
+  font-size: 12px;
+  cursor: pointer;
+  transition: color 160ms ease, background 160ms ease, border-color 160ms ease;
+}
+
+.filterButton:hover,
+.calendarButton:hover,
+.amountButton:hover,
+.categoryButton:hover {
+  border-color: var(--gold-deep);
+}
+
+.filterButton[aria-pressed="true"],
+.amountButton[aria-pressed="true"],
+.categoryButton[aria-pressed="true"] {
+  border-color: var(--forest);
+  color: var(--paper);
+  background: var(--forest);
+}
+
+.galleryGrid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.disclaimer {
+  margin-top: 14px;
+  color: var(--ink-soft);
+  font-size: 11px;
+  line-height: 1.7;
+}
+
+.galleryCard {
+  display: flex;
+  min-height: 240px;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-between;
+  padding: 18px;
+  border: 1px solid var(--line);
+  color: var(--forest);
+  background: #d4e2f2;
+  text-align: left;
+  cursor: pointer;
+}
+
+.galleryCard:nth-child(3n + 2) {
+  background: #d0e0f2;
+}
+
+.galleryCard:nth-child(3n) {
+  background: #cadbef;
+}
+
+.galleryArt {
+  display: grid;
+  min-height: 155px;
+  place-items: center;
+  border: 1px solid rgba(20, 53, 98, 0.12);
+  background:
+    radial-gradient(circle, rgba(96, 164, 208, 0.2), transparent 52%),
+    repeating-radial-gradient(circle, transparent 0 20px, rgba(20, 53, 98, 0.08) 21px 22px, transparent 23px 34px);
+}
+
+.galleryArt span {
+  color: var(--gold-deep);
+  font-family: var(--font-serif), Georgia, serif;
+  font-size: 34px;
+}
+
+.galleryCardTitle {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 14px;
+  font-family: var(--font-serif), Georgia, serif;
+  font-size: 18px;
+}
+
+.galleryCard small {
+  display: block;
+  margin-top: 5px;
+  color: var(--ink-soft);
+  font: 10px/1.5 var(--font-sans);
+}
+
+.dialogBackdrop {
+  position: fixed;
+  z-index: 30;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  padding: 22px;
+  background: rgba(13, 25, 40, 0.78);
+}
+
+.dialog {
+  position: relative;
+  width: min(100%, 760px);
+  padding: 22px;
+  border: 1px solid rgba(96, 164, 208, 0.55);
+  color: var(--forest);
+  background: var(--paper);
+  box-shadow: 0 24px 70px rgba(0, 0, 0, 0.25);
+}
+
+.dialogClose {
+  display: grid;
+  width: 42px;
+  height: 42px;
+  place-items: center;
+  margin-left: auto;
+  border: 1px solid var(--line);
+  color: var(--forest);
+  background: transparent;
+  font-size: 23px;
+  cursor: pointer;
+}
+
+.dialogArt {
+  display: grid;
+  min-height: min(52vh, 390px);
+  place-items: center;
+  border: 1px solid var(--line);
+  background:
+    radial-gradient(circle, rgba(96, 164, 208, 0.2), transparent 52%),
+    repeating-radial-gradient(circle, transparent 0 27px, rgba(20, 53, 98, 0.08) 28px 29px, transparent 30px 48px),
+    #cedef1;
+}
+
+.dialogArt span {
+  color: var(--gold-deep);
+  font-family: var(--font-serif), Georgia, serif;
+  font-size: clamp(42px, 8vw, 88px);
+}
+
+.dialogCaption {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  margin-top: 16px;
+  color: var(--ink-soft);
+  font-size: 12px;
+}
+
+.dialogCaption strong {
+  color: var(--forest);
+  font-family: var(--font-serif), Georgia, serif;
+  font-size: 19px;
+  font-weight: 400;
+}
+
+.dialogControls {
+  display: flex;
+  gap: 8px;
+}
+
+.calendar {
+  padding: clamp(16px, 3vw, 28px);
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.45);
+}
+
+.calendarHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 18px;
+}
+
+.calendarHeader h3 {
+  color: var(--forest);
+  font-family: var(--font-serif), Georgia, serif;
+  font-size: clamp(21px, 3vw, 30px);
+  font-weight: 400;
+}
+
+.calendarNav {
+  display: flex;
+  gap: 8px;
+}
+
+.calendarButton {
+  min-width: 42px;
+  padding: 8px 12px;
+}
+
+.calendarGrid {
+  display: grid;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+}
+
+.weekday,
+.dayCell {
+  display: grid;
+  min-height: 42px;
+  place-items: center;
+  border-bottom: 1px solid rgba(20, 53, 98, 0.1);
+  color: var(--ink-soft);
+  font-size: 11px;
+}
+
+.weekday {
+  color: var(--gold-deep);
+  font-weight: 600;
+}
+
+.dayCell button {
+  display: grid;
+  width: 36px;
+  height: 36px;
+  place-items: center;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  color: var(--forest);
+  background: transparent;
+  font: inherit;
+  cursor: pointer;
+}
+
+.dayCell button:hover {
+  border-color: var(--gold);
+}
+
+.dayCell button[aria-pressed="true"] {
+  color: #fff;
+  background: var(--forest);
+}
+
+.dayCell button:focus-visible,
+.galleryCard:focus-visible,
+.dialogClose:focus-visible,
+.calendarButton:focus-visible,
+.filterButton:focus-visible,
+.categoryButton:focus-visible,
+.amountButton:focus-visible {
+  outline: 2px solid var(--gold-deep);
+  outline-offset: 3px;
+}
+
+.dayOutside {
+  color: #9ba0a4;
+}
+
+.calendarNote {
+  margin-top: 18px;
+  padding: 14px 16px;
+  border-left: 2px solid var(--gold);
+  color: var(--ink-soft);
+  background: rgba(96, 164, 208, 0.08);
+  font-size: 12px;
+  line-height: 1.7;
+}
+
+.donationPanel {
+  display: grid;
+  gap: 28px;
+}
+
+.donationGroup {
+  display: grid;
+  gap: 12px;
+  padding: 0;
+  border: 0;
+}
+
+.donationGroup legend {
+  margin-bottom: 12px;
+  color: var(--forest);
+  font-family: var(--font-serif), Georgia, serif;
+  font-size: 22px;
+}
+
+.categoryGrid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.categoryButton {
+  min-height: 62px;
+  text-align: left;
+}
+
+.amountChoices {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.customAmount {
+  display: grid;
+  max-width: 250px;
+  gap: 8px;
+  color: var(--forest);
+  font-size: 12px;
+}
+
+.customAmount input,
+.donorField input {
+  min-height: 44px;
+  padding: 10px 12px;
+  border: 1px solid rgba(20, 53, 98, 0.22);
+  border-radius: 2px;
+  color: var(--ink);
+  background: #fff;
+  font: inherit;
+}
+
+.customAmount input:focus-visible {
+  outline: 2px solid var(--gold-deep);
+  outline-offset: 2px;
+}
+
+.donorFields {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.donorField {
+  display: grid;
+  gap: 7px;
+  color: var(--ink-soft);
+  font-size: 11px;
+}
+
+.donorField input:disabled {
+  color: #737b84;
+  background: #e2ebf6;
+  cursor: not-allowed;
+}
+
+.inactiveNotice {
+  padding: 16px 18px;
+  border: 1px solid rgba(50, 88, 131, 0.3);
+  color: var(--forest);
+  background: rgba(96, 164, 208, 0.09);
+  font-size: 12px;
+  line-height: 1.7;
+}
+
+@media (max-width: 700px) {
+  .galleryGrid,
+  .categoryGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 480px) {
+  .galleryGrid,
+  .categoryGrid,
+  .donorFields {
+    grid-template-columns: 1fr;
+  }
+
+  .galleryCard {
+    min-height: 210px;
+  }
+
+  .dialogCaption {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .filterButton,
+  .calendarButton,
+  .amountButton,
+  .categoryButton {
+    transition: none;
+  }
+}
