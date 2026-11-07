@@ -1,0 +1,33 @@
+.wrap { padding: clamp(32px, 5vw, 64px) 0; text-align: center; }
+.pill {
+  display: inline-block; padding: 8px 18px; margin-bottom: 18px;
+  color: var(--gold-deep); background: rgba(96, 164, 208, 0.18);
+  border-radius: 999px; font-size: 0.78rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase;
+}
+.wrap h2 {
+  margin-bottom: 20px; color: var(--forest);
+  font-family: var(--font-serif); font-size: clamp(2rem, 5vw, 3.4rem); line-height: 1.1;
+}
+.intro { max-width: 860px; margin: 0 auto clamp(28px, 4vw, 48px); color: var(--ink-soft); font-size: 1.05rem; line-height: 1.75; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 20px; text-align: left; }
+.card {
+  --tone: var(--gold-deep);
+  display: flex; flex-direction: column; gap: 6px; padding: 24px;
+  background: #fff; border: 1.5px solid var(--tone); border-radius: 18px;
+  box-shadow: 0 8px 24px rgba(20, 53, 98, 0.07);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.card:hover { transform: translateY(-3px); box-shadow: 0 14px 30px rgba(20, 53, 98, 0.13); }
+.cardHead { display: flex; align-items: center; gap: 14px; margin-bottom: 4px; }
+.cardHead h3 { color: var(--forest); font-size: 1.2rem; line-height: 1.2; }
+.icon {
+  display: grid; flex: none; width: 52px; height: 52px; place-items: center;
+  color: var(--tone); background: color-mix(in srgb, var(--tone) 12%, #fff); border-radius: 14px;
+}
+.subtitle { color: var(--ink-soft); font-size: 1rem; }
+.body { margin-top: 10px; color: var(--ink-soft); font-size: 0.97rem; line-height: 1.7; }
+.toneOne { --tone: #306cb4; }
+.toneTwo { --tone: #4f8fcb; }
+.toneThree { --tone: #1f4a86; }
+.toneFour { --tone: #60a4d0; }
+.toneFive { --tone: #3b5fa8; }
