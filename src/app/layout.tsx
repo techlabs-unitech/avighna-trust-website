@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     title: "Vedavani Pathashala | Vedic Learning & Living Wisdom",
     description:
       "Preserving the eternal wisdom of the Vedas, nurturing values, and inspiring future generations through Vedic studies, Sanskrit, and holistic learning.",
-    siteName: "Avighna Trust · Vedavani Pathashala",
+    siteName: "Avighna Trust · Avighna Foundation © All Rights Reserved 2026",
     locale: "en_IN",
     type: "website",
   },
