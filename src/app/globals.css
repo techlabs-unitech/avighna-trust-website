@@ -1,0 +1,67 @@
+:root {
+  /* ---- Heritage palette: palm-leaf parchment, kumkum, turmeric, nila (indigo), tulsi ---- */
+  --paper: #f4e8c8;
+  --paper-light: #fbf3dd;
+  --cream: #fbf3dd;
+  --sky: #efe0b8;
+  --forest: #1d2457;          /* nila / indigo — echoes the logo blue */
+  --forest-light: #2f3a85;
+  --gold: #e3a11c;            /* turmeric */
+  --gold-deep: #a3201f;       /* kumkum */
+  --saffron: #e8892a;
+  --saffron-deep: #c4560f;
+  --tulsi: #2f5d3a;
+  --peacock: #11707d;
+  --ink: #2b1d14;             /* kajal */
+  --ink-soft: #6a5236;
+  --line: rgba(90, 55, 20, 0.24);
+
+  --font-display: var(--font-cormorant), "Iowan Old Style", Georgia, serif;
+  --font-serif: var(--font-cormorant), "Iowan Old Style", Georgia, serif;
+  --font-sans: var(--font-mukta), system-ui, Arial, sans-serif;
+  --font-sanskrit: var(--font-tiro), var(--font-cormorant), serif;
+
+  /* kolam-style ornamental band (diamond chain with turmeric dots) */
+  --band: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='14' viewBox='0 0 28 14'%3E%3Cg fill='none' stroke='%23a3201f' stroke-width='1.3'%3E%3Cpath d='M0 7 7 1l7 6-7 6zM14 7l7-6 7 6-7 6z'/%3E%3C/g%3E%3Ccircle cx='7' cy='7' r='1.7' fill='%23e3a11c'/%3E%3Ccircle cx='21' cy='7' r='1.7' fill='%23e3a11c'/%3E%3C/svg%3E");
+  --band-light: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='14' viewBox='0 0 28 14'%3E%3Cg fill='none' stroke='%23f0cf7a' stroke-width='1.3'%3E%3Cpath d='M0 7 7 1l7 6-7 6zM14 7l7-6 7 6-7 6z'/%3E%3C/g%3E%3Ccircle cx='7' cy='7' r='1.7' fill='%23e3a11c'/%3E%3Ccircle cx='21' cy='7' r='1.7' fill='%23e3a11c'/%3E%3C/svg%3E");
+  --grain: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .45 0 0 0 0 .3 0 0 0 0 .1 0 0 0 .11 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  color-scheme: light;
+}
+
+/* Shared colour themes for cards — use data-tone="indigo|kumkum|turmeric|tulsi|peacock|plum" */
+[data-tone="indigo"]   { --bg1: #e6e4f6; --bg2: #c9c8ea; --d1: #12173f; --d2: #3a46a3; --accent: #2f3a85; }
+[data-tone="kumkum"]   { --bg1: #fbe3d8; --bg2: #f2bba7; --d1: #4a0d0d; --d2: #a3201f; --accent: #b8302a; }
+[data-tone="turmeric"] { --bg1: #fdf0c4; --bg2: #f6d778; --d1: #4a2d00; --d2: #a8640a; --accent: #d9980f; }
+[data-tone="tulsi"]    { --bg1: #e0efd9; --bg2: #b9d9ae; --d1: #0f3320; --d2: #2f6a3d; --accent: #3a7d49; }
+[data-tone="peacock"]  { --bg1: #d9eef0; --bg2: #addde2; --d1: #05323a; --d2: #11707d; --accent: #158391; }
+[data-tone="plum"]     { --bg1: #eadcf0; --bg2: #d3b6df; --d1: #2d1040; --d2: #6e2f8f; --accent: #7e3aa3; }
+
+* { box-sizing: border-box; padding: 0; margin: 0; }
+
+html { scroll-behavior: smooth; scroll-padding-top: 18px; }
+
+body {
+  max-width: 100%;
+  min-height: 100vh;
+  overflow-x: hidden;
+  color: var(--ink);
+  font-family: var(--font-sans);
+  font-size: 17px;
+  background-color: var(--paper);
+  /* palm-leaf: fine horizontal fibres + paper grain */
+  background-image:
+    var(--grain),
+    repeating-linear-gradient(0deg, rgba(120, 80, 20, 0.045) 0 1px, transparent 1px 9px);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[lang="sa"] { font-family: var(--font-sanskrit); }
+
+a { color: inherit; text-decoration: none; }
+button, a { -webkit-tap-highlight-color: transparent; }
+a:focus-visible, summary:focus-visible { outline: 2px solid var(--gold-deep); outline-offset: 4px; }
+::selection { color: var(--paper-light); background: var(--gold-deep); }
+
+/* scrollbar in keeping with the page */
+html { scrollbar-color: var(--gold-deep) var(--paper); }

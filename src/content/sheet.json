@@ -1,0 +1,507 @@
+{
+ "puja": {
+  "label": "पूजा / Devotional Worship Services",
+  "intro": "Individual and community worship services conducted with strict scriptural authenticity to invoke divine grace.",
+  "items": [
+   {
+    "term": "Deity Pujas",
+    "text": "Dedicated worship including Ganapati Puja, Lakshmi Puja, Saraswati Puja, Shiva Puja, Vishnu Puja, and Devi Puja."
+   },
+   {
+    "term": "Gopooja / Gopuja",
+    "text": "Sacred worship honoring Gomata (the cow) on auspicious occasions, recognizing the presence of all Devas and Mahalakshmi within her."
+   },
+   {
+    "term": "Guru Puja",
+    "text": "Honoring the Guru lineage (Parampara) and seeking blessings for spiritual illumination."
+   },
+   {
+    "term": "Satyanarayana Puja",
+    "text": "Devotional worship conducted for family prosperity, peace, and thanksgiving."
+   },
+   {
+    "term": "Navagraha Puja",
+    "text": "Worship to harmonize planetary influences in personal horoscopes."
+   },
+   {
+    "term": "Bhagavathy Seva",
+    "text": "Specialized evening worship invoking the protective and benevolent grace of Devi."
+   },
+   {
+    "term": "Sastha Preethi",
+    "text": "Special worship invoking the blessings of Lord Ayyappa (Sastha) for protection and discipline."
+   },
+   {
+    "term": "Shree Chakra Pooja",
+    "text": "Sacred geometric worship of the Sri Chakra for spiritual elevation and energy alignment."
+   },
+   {
+    "term": "Rudra Ekadashini",
+    "text": "Intensive chanting of Sri Rudram accompanied by Abhishekam for deep spiritual cleansing."
+   },
+   {
+    "term": "Parihara Pujas",
+    "text": "Targeted remedial ceremonies designed to address the spiritual root causes of ailments (such as Asthma, Blood Pressure, and Rheumatism)."
+   }
+  ]
+ },
+ "nitya": {
+  "label": "नित्यसेवा / Daily Temple Worship",
+  "intro": "Daily worship forms the spiritual foundation of campus life, bringing peace, purity, and divine grace.",
+  "items": [
+   {
+    "term": "Suprabhata Seva",
+    "text": "Sacred awakening chants and prayers at dawn to begin the day with divine grace."
+   },
+   {
+    "term": "Morning & Evening Aarati",
+    "text": "Ceremonial offering of sacred lamps accompanied by devotional hymns."
+   },
+   {
+    "term": "Abhisheka & Archana",
+    "text": "Ritual bathing of the deities with sacred liquids and chanting of holy names (Ashtothara / Sahasranama)."
+   },
+   {
+    "term": "Deepa Seva & Naivedya",
+    "text": "Offering of sanctified lamps and wholesome vegetarian offerings (Prasadam) to the Divine."
+   },
+   {
+    "term": "Veda Parayanam",
+    "text": "Daily recitation of Vedic mantras by Purohits as an offering to the Divine, seeking divine blessings for peace, prosperity, and the well-being of all."
+   }
+  ]
+ },
+ "homa": {
+  "label": "होमः / Sacred Fire Sacrifices",
+  "intro": "Fire is revered as the divine messenger carrying prayers and offerings to celestial forces for physical, material, and spiritual protection.",
+  "items": [
+   {
+    "term": "Ganapathy Homam",
+    "text": "Performed to remove obstacles, clear laziness, and ensure focus in studies, business, and daily pursuits."
+   },
+   {
+    "term": "Navagraha Homam",
+    "text": "Invokes blessings from the nine celestial bodies for peace, balance, growth, and overall prosperity."
+   },
+   {
+    "term": "Ayushya Homam",
+    "text": "Performed for longevity, vitality, and well-being."
+   },
+   {
+    "term": "Mruthyunjaya / Mrityunjaya Homam",
+    "text": "Performed to overcome health emergencies, accidental threats, and severe physical ailments."
+   },
+   {
+    "term": "Maha Sudarshana Homam",
+    "text": "Potent ritual to vanquish negative energies, alleviate enmity, and resolve major operational or business blocks."
+   },
+   {
+    "term": "Sreesooktha / Lakshmi Homam",
+    "text": "Performed for wealth, financial stability, and spiritual abundance."
+   },
+   {
+    "term": "Swayamvara Parvathy Homam",
+    "text": "Performed for matrimonial harmony, removing delays in marriage, and family peace."
+   },
+   {
+    "term": "Chandika / Chandi Homam",
+    "text": "Powerful fire ritual for fulfilling noble desires, overcoming obstacles, and establishing Dharmic life."
+   },
+   {
+    "term": "Dhanvantari Homam",
+    "text": "Dedicated to Lord Dhanvantari for health, healing, and freedom from chronic illness."
+   },
+   {
+    "term": "Rudra Homam",
+    "text": "Performed to invoke Lord Shiva's blessings for profound spiritual purification and cosmic protection."
+   },
+   {
+    "term": "Saraswati Homam",
+    "text": "Invokes the Goddess of Knowledge for memory retention, academic excellence, and artistic mastery."
+   }
+  ]
+ },
+ "samskaras": {
+  "label": "संस्कारः / Life-Cycle Rites of Passage",
+  "intro": "Sacred rites of passage performed under qualified Acharyas to purify, guide, and bless human existence at every key milestone.",
+  "items": [
+   {
+    "term": "Namakarana",
+    "text": "Sacred naming ceremony for newborns."
+   },
+   {
+    "term": "Annaprashanam",
+    "text": "First ceremonial feeding of solid sanctified food to infants."
+   },
+   {
+    "term": "Choodakarana / Chudakarana",
+    "text": "First haircut ceremony symbolizing cleanliness and spiritual growth."
+   },
+   {
+    "term": "Aksharabhyasa",
+    "text": "Formal initiation of a child into learning and the alphabet."
+   },
+   {
+    "term": "Upanayana",
+    "text": "Sacred thread ceremony initiating young seekers into Vedic study and spiritual discipline."
+   },
+   {
+    "term": "Vivaham",
+    "text": "Traditional Vedic marriage ceremony sanctifying family life."
+   },
+   {
+    "term": "Shashtiabdhapoorthi",
+    "text": "Celebration and thanksgiving ceremony on completing 60 years of life."
+   },
+   {
+    "term": "Sathabhishekam / Sadabhishekam",
+    "text": "Grand milestone celebration and blessings upon reaching 80 years of age."
+   },
+   {
+    "term": "Shanthi Rituals",
+    "text": "Special remedial peace ceremonies (such as Nakshatra Shanthi, Ayushya Shanthi) to remove astrological doshas."
+   }
+  ]
+ },
+ "yagna": {
+  "label": "यज्ञः / Collective Ceremonies for Universal Welfare",
+  "intro": "Yagnas represent the highest form of Vedic action (Yajnohi Sreshta thamam Karma) performed collectively for societal welfare, environmental purity, and global peace.",
+  "items": [
+   {
+    "term": "Samhita Yajna",
+    "text": "A sacred Vedic ritual in which Purohits chant the Samhita Veda mantras and offer Svaha during the Yajna. The purpose is to preserve Vedic traditions and invoke divine blessings for spiritual growth, peace, harmony, and the well-being of all."
+   },
+   {
+    "term": "Sathachandi Yajna",
+    "text": "Massive, multi-day sacred ceremony for universal peace, national protection, and removing large-scale societal obstacles."
+   },
+   {
+    "term": "Chandi Yajna",
+    "text": "Collective worship of the Divine Mother for strength, protection, and overcoming adversity."
+   },
+   {
+    "term": "Rudra Yajna & Maharudra Yajna",
+    "text": "Grand-scale collective recitations of Sri Rudram for cosmic harmony and environmental balance."
+   },
+   {
+    "term": "Bala Ganapati Yajna",
+    "text": "Grand collective offerings to Lord Ganesha for auspicious beginnings and universal prosperity."
+   },
+   {
+    "term": "Navagraha Yajna",
+    "text": "Collective fire offerings for global harmony and balance in natural forces."
+   },
+   {
+    "term": "Lakshmi Narayana Yajna",
+    "text": "Collective worship for global peace, economic prosperity, and spiritual preservation."
+   }
+  ]
+ },
+ "donation": {
+  "VIDYADANAM": {
+   "name": "VIDYADANAM",
+   "text": "Support the education and overall well-being of Veda students through contributions towards tuition, Panchamukhi Shikshana, books, study materials, uniforms, accommodation, healthcare, and other essential educational needs.",
+   "sponsorTitle": "What Donors Can Sponsor",
+   "sponsor": [
+    "Complete student sponsorships for Panchamukhi Shikshana (Veda, Yoga, Science, Agriculture, and Traditional Arts).",
+    "Books, study materials, notebooks, uniforms, and educational kits.",
+    "Modern academic expenses and NIOS (National Institute of Open Schooling) examination/certification fees.",
+    "Scholarships for higher education and university degree transitions."
+   ]
+  },
+  "ANNADANAM": {
+   "name": "ANNADANAM",
+   "text": "Providing daily sanctified, wholesome meals to Veda students, visiting scholars, devotees, pilgrims, and guests (\"Anna Dānam Mahā Dānam\").",
+   "sponsorTitle": "What Donors Can Sponsor",
+   "sponsor": [
+    "Daily meals (Sattvic food) for Gurukulam residential students and Acharyas.",
+    "Festival Annadanam during major celebrations (Ganesh Chaturthi, Navaratri, Shivaratri, etc.).",
+    "Feeding visiting pilgrims, scholars, devotees, and guests.",
+    "Special Seva Annadanam (sponsoring food on personal birthdays, anniversaries, or memorial days)."
+   ]
+  },
+  "GO DANAM": {
+   "name": "GO DANAM",
+   "text": "Support for the protection, feeding, medical care, shelter maintenance, Goshala development, and care for Gomata.",
+   "sponsorTitle": "What Donors Can Sponsor",
+   "sponsor": [
+    "Daily cow feeding, fodder, and green pasture maintenance.",
+    "Medical care, vaccinations, and veterinary support for cows.",
+    "Goshala shelter construction, maintenance, and expansion.",
+    "Organic farming and traditional dairy development initiatives."
+   ]
+  },
+  "VEDA RAKSHANAM": {
+   "name": "VEDA RAKSHANAM",
+   "text": "Funding Veda Pathashala operations, student sponsorship, Guru Dakshina, manuscript preservation, research, and oral chanting traditions.",
+   "sponsorTitle": "What Donors Can Sponsor",
+   "sponsor": [
+    "Operational expenses of the Veda Pathashala.",
+    "Sponsoring intensive Vedic chanting workshops and assemblies (Veda Sammelana).",
+    "Funding specialized Acharyas who teach Rigveda, Yajurveda, and Upanishads.",
+    "Oral chanting recording and preservation projects."
+   ]
+  },
+  "DEVA DANAM": {
+   "name": "DEVA DANAM",
+   "text": "Supporting temple construction, renovation, daily worship materials, maintenance, infrastructure, and festival arrangements.",
+   "sponsorTitle": "What Donors Can Sponsor",
+   "sponsor": [
+    "Daily worship materials (ghee, oil, sacred lamps, flowers, puja dravyas, incense).",
+    "Temple construction, repair, renovation, and sanctum maintenance.",
+    "Festival decorations, Brahmotsavam arrangements, and ritual requisites.",
+    "Sponsoring specific Homams, Yagnas, or Pujas for societal welfare."
+   ]
+  },
+  "AROGHYADANAM": {
+   "name": "AROGHYADANAM",
+   "text": "Funding health check-ups, medical assistance, healthcare support, and wellness initiatives for Veda students, elders, and community outreach.",
+   "sponsorTitle": "What Donors Can Sponsor",
+   "sponsor": [
+    "Medical check-ups, medicines, and emergency healthcare funds for Veda students.",
+    "Medical treatment and Ayurvedic wellness care for senior citizens in Vanaprastham.",
+    "Free rural health and wellness camps organized by the Trust."
+   ]
+  },
+  "VRDDHASHRAMA DANAM": {
+   "name": "VRDDHASHRAMA DANAM",
+   "text": "Supporting senior citizens in the Vanaprastham refuge, funding spiritual living, accommodation, healthcare, and intergenerational mentorship facilities.",
+   "sponsorTitle": "What Donors Can Sponsor",
+   "sponsor": [
+    "Residential accommodation, utilities, and daily living costs for elderly residents.",
+    "Spiritual security facilities (Satsang halls, library materials, meditation spaces).",
+    "Intergenerational mentorship programs connecting elders with Gurukula students."
+   ]
+  }
+ },
+ "taxNote": "All contributions are exempt under Section 80G of the Income Tax Act.",
+ "story": {
+  "overview": "Established to preserve, practice, and propagate the timeless wisdom of the Vedas and the rich spiritual heritage of Bharat through the unbroken oral tradition of the Guru–Shishya Parampara. Operates on the conviction that education, food, healthcare, and spiritual guidance are fundamental pillars of human development",
+  "extras": [
+   "100% Free Residential Provision: Provides comprehensive residential facilities—including free boarding, lodging, quality education, healthcare, and cultural enrichment—so students can focus entirely on Vedic and academic growth",
+   "Institutional Wings Managed by the Trust: Vedavani Pathashala: The core residential Gurukulam delivering dual-path education (Vedic studies alongside recognized NIOS academic certificates) and Panchamukhi Shikshana",
+   "Shodhasamsthanam (Research Division): Research institute dedicated to Vedic science (Veda Vijnana), rare manuscript collection, palm-leaf preservation, and digital archiving",
+   "Vanaprastham Wing (OLD AGE HOME) : A dedicated sanctuary providing elders with spiritual security (Abhayadānam), peaceful living, and intergenerational mentorship with Gurukulam students",
+   "Community Outreach(E-Jnana-kendram): Conducting online and offline Veda chanting (E - Deva Śruti) and Sanskrit language (E - Deva Vāṇī) classes, teacher training, and rural outreach"
+  ]
+ },
+ "vision": "We aspire to bring ancient wisdom into modern life and nurture a society rooted in Dharma, compassion, spiritual awareness, and selfless service, for the well-being of all.",
+ "mission": "To preserve, practice, and propagate the timeless heritage of Sanatana Dharma, Vedic wisdom, Sanskrit, and Bharatiya Knowledge Systems by providing free education, spiritual guidance, elder care, research, and community service for the welfare of society.",
+ "values": [
+  {
+   "en": "Dharma",
+   "sa": "धर्म",
+   "title": "Righteousness & Ethical Living",
+   "text": "The foundational pillar that governs ethics, duty, moral conduct, and organizational governance across all initiatives."
+  },
+  {
+   "en": "Jnana",
+   "sa": "ज्ञान",
+   "title": "Holistic Wisdom & Learning",
+   "text": "Promoting lifelong learning by bridging sacred Vedic wisdom with modern academic excellence and scientific inquiry."
+  },
+  {
+   "en": "Seva",
+   "sa": "सेवा",
+   "title": "Selfless Service & Philanthropy",
+   "text": "Serving humanity and society without expectation of personal reward, transforming service into a sacred offering."
+  },
+  {
+   "en": "Samskriti",
+   "sa": "संस्कृति",
+   "title": "Cultural & Scriptural Heritage",
+   "text": "Honoring, celebrating, and preserving the living traditions, language, rituals, architecture, and arts of Bharat."
+  },
+  {
+   "en": "Karuna",
+   "sa": "करुणा",
+   "title": "Compassion & Universal Welfare",
+   "text": "Treating every living being with empathy, kindness, and dignity—fostering harmony across all creation (\"Lokāḥ Samastāḥ Sukhino Bhavantu\")."
+  }
+ ],
+ "trust": {
+  "home": "Dedicated to preserving and propagating the timeless heritage of the Vedas, Sanskrit, Bharatiya Knowledge Systems, and Sanatana Dharma through the ancient Guru–Shishya Parampara, offering a holistic education completely free of cost.",
+  "darsanam": "Provides spiritual experiences through daily temple Darshan (Suprabhata Seva, Morning/Evening Aarati, Abhisheka, Archana) and guided pilgrimages connecting devotees to ancient temple architecture, Vāstu Śāstra, Āgama Śāstra, and spiritual energy.",
+  "devaseva": "Performing Vaideeka Karmas, Devatha Aradhanas, and daily worship according to the Vedas, Agamas, and Smritis to support traditional temple culture, environmental purification, and spiritual well-being.",
+  "recognition": "Certificates and details to be added.",
+  "samsthapaka": ".(Note: Individual founder bios/names can be added as required).",
+  "nyasinaha": "Functions under a dedicated charitable trust guided by a Margadarshaka Mandala (Advisory Board) comprising experienced scholars, spiritual mentors, educationists, and community leaders to maintain transparency, integrity, and accountability."
+ },
+ "pilgrimage": {
+  "overview": "Immersive spiritual journeys connecting seekers with ancient temple architecture, Vāstu Śāstra, sacred geography, historical significance, and spiritual energy.",
+  "keralam": "Guided pilgrimages to ancient temple centres and sacred sites across Kerala, exploring their origins, traditions, and spiritual heritage. \n(Note: Specific list of Kerala temples to be filled if itemized).",
+  "dravida": "(द्रविडदेशम्)Explorations of ancient temples across Tamil Nadu/Dravida region, focusing on sacred architecture and historical significance\n. (Note: Specific temple names to be filled).",
+  "karnataka": "(कर्णाटकराज्यम्): Sacred visits to temples on riverbanks (e.g., Tunga River) and cultural centres across Karnataka\n. (Note: Specific temple names to be filled).",
+  "andhra": "Spiritual journeys to sacred pilgrimage sites and temples in Andhra Pradesh\n. (Note: Specific temple names to be filled)."
+ },
+ "vana": {
+  "overview": "A dedicated wing providing elders with a life of dignity, reflection, spiritual security (Abhayadānam), and intergenerational mentorship alongside Gurukula students.",
+  "routine": [
+   {
+    "title": "Brahma Muhurta Awakening",
+    "text": "Waking up during the pre-dawn period (Brahma Muhurta) for silent reflection and morning prayers."
+   },
+   {
+    "title": "Yoga & Pranayama",
+    "text": "Guided gentle Yoga asanas, breathing exercises, and meditation for physical vitality and stress relief."
+   },
+   {
+    "title": "Temple Darshan & Chanting",
+    "text": "Attending the daily temple worship (Suprabhata Seva & morning Aarati) and listening to or participating in Vedic chanting."
+   },
+   {
+    "title": "Sattvic Breakfast",
+    "text": "Wholesome, nutritious vegetarian breakfast prepared with care."
+   },
+   {
+    "title": "Scriptural Study (Svadhyaya)",
+    "text": "Engaging in self-study, reading, and contemplation of sacred texts such as the Bhagavad Gita and Upanishads."
+   },
+   {
+    "title": "Intergenerational Mentorship",
+    "text": "Interacting with young Gurukulam students—sharing life wisdom, guiding character development, telling traditional stories, and supporting Sanskrit/Vedic learning."
+   },
+   {
+    "title": "Community Seva & Volunteering",
+    "text": "Participating in light campus service, temple volunteering, Tulasi Seva, or Goshala care."
+   },
+   {
+    "title": "Sattvic Lunch & Rest",
+    "text": "Wholesome mid-day meal followed by time for personal rest, reflection, or quiet reading."
+   },
+   {
+    "title": "Light Physical Activity",
+    "text": "Walking in the serene, natural surroundings of the Gurukulam campus."
+   },
+   {
+    "title": "Temple Evening Worship & Bhajans",
+    "text": "Attending evening Aarati, devotional singing (Nama Sankirtana), and group prayers."
+   },
+   {
+    "title": "Satsang & Discussions",
+    "text": "Participating in spiritual discussions and Satsangs led by Acharyas, scholars, and fellow residents."
+   },
+   {
+    "title": "Sattvic Dinner",
+    "text": "Light, easily digestible evening meal."
+   },
+   {
+    "title": "Silent Meditation",
+    "text": "Brief pre-bedtime silent meditation and introspection to conclude the day with gratitude."
+   },
+   {
+    "title": "Rest",
+    "text": "Retiring early to maintain harmony with nature's natural cycles."
+   }
+  ],
+  "pillars": [
+   {
+    "title": "Spiritual Living",
+    "text": "Daily practices include meditation, silent reflection, Vedic chanting, scriptural study, and personal guidance from Acharyas."
+   },
+   {
+    "title": "Mentorship & Purpose",
+    "text": "Elders replace the fear of being \"unneeded\" with the joy of mentorship, acting as a \"natural fertilizer\" for the younger generation by imparting traditional values and life lessons."
+   },
+   {
+    "title": "Holistic Healthcare",
+    "text": "Includes regular health check-ups, Ayurvedic lifestyle guidance, daily Yoga and Pranayama, walking paths, and a peaceful environment."
+   },
+   {
+    "title": "Community Life (Vasudhaiva Kutumbakam)",
+    "text": "Residents live as one spiritual family, sharing collective worship, festival celebrations, group study sessions, and mutual emotional support."
+   }
+  ]
+ },
+ "gurukulam": {
+  "GURUKULAM": "Authentic residential education based on the Guru–Shishya Parampara, featuring a disciplined daily routine (Dinacharya) starting at 5:00 AM (Brahma Muhurta) with meditation, yoga, prayers, and Vedic studies.",
+  "GURUKULAM OVERVIEW (Where Wisdom Becomes a Way of Life)": "An authentic residential learning environment rooted in the ancient Guru–Shishya Parampara, dedicated to preserving and transmitting Vedic wisdom, Sanskrit, Bharatiya Knowledge Systems, and modern academic excellence. Education is experienced as an immersive way of life that shapes character, intellect, physical health, and spiritual awareness.",
+  "GURU–SHISHYA PARAMPARA (Sacred Bond)": "Personalized learning direct from experienced Acharyas built upon mutual trust, respect, devotion, and discipline. The Guru acts as a mentor, philosopher, and role model who shapes character and awakens the student's highest potential.",
+  "RESIDENTIAL LIFE & CAMPUS ENVIRONMENT": "A close-knit spiritual family providing comfortable accommodation, nutritious Sattvic vegetarian meals, regular healthcare, serene spaces for meditation and Yoga, and a disciplined environment that teaches self-reliance, cooperation, and gratitude.",
+  "DISCIPLINED DAILY ROUTINE (Dinacharya)": "Balanced daily schedule beginning at 5:00 AM (Brahma Muhurta):• Morning: Pre-dawn awakening, silent meditation, gentle Yoga, Pranayama, Sandhyavandana, and Vedic chanting.• Daytime: Academic classes, Vedic studies, Sanskrit learning, practical skills, and Krishi/Go Seva.• Evening/Night: Physical sports, evening prayers, devotional singing (Bhajans), guided self-study, reflection, and early rest.",
+  "POSITIVE DISCIPLINE & CHARACTER BUILDING": "Discipline is approached as a pathway to freedom and inner strength through positive guidance. Students cultivate punctuality, cleanliness, honest speech, ethical conduct, simplicity, and respect for Gurus and elders.",
+  "VEDIC STUDIES (Preserving the Oral Tradition)": "Systematic training in the sacred oral tradition focusing on the Rigveda, Yajurveda, Upanishads, Bhagavad Gita, Vedangas, and Dharma Shastras. Students master precise pronunciation (Śikṣā), intonation (Svara), rhythm, memory techniques, and the Ghana Patha tradition.",
+  "SANSKRIT STUDIES (Deva Vāṇī)": "Comprehensive Sanskrit education covering reading, writing, speaking, grammar (Vyākaraṇa), vocabulary, classical poetry, drama, composition, and scriptural interpretation. Focuses on Subhashitas, Gita, Ramayana, Mahabharata, and spoken Sanskrit fluency.",
+  "DUAL-PATH EDUCATION MODEL & NIOS CERTIFICATION": "Unique dual-path model where traditional Gurukula teaching leads, integrated with modern academics. Students receive nationally recognized National Institute of Open Schooling (NIOS) study certificates in Mathematics, Science, Social Science, English, Information Technology, and Environmental Studies. This empowers graduates to pursue university degrees (Engineering, Science, Arts) or self-reliant careers.",
+  "MULTILINGUAL PROFICIENCY": "Building fluency across four languages: Samskritam, Kannada, English, and Hindi, developing public speaking, creative writing, translation, and presentation skills.",
+  "Panchamukhi Shikshana": "Inspired by the timeless principles of the Gurukula tradition, Panchamukhi Shikshana is a unique five-dimensional educational framework combining India's ancient knowledge systems with essential skills required to thrive in the modern world. It shapes the mind, body, character, intellect, and spirit for holistic development.\n1. Veda (Scriptures & Chanting), Systematic training in Vedic chanting, scriptural study, Sanskrit pronunciation, and the Guru–Shishya tradition under experienced Acharyas. Includes the study of Rigveda, Yajurveda, Upanishads, Bhagavad Gita, Vedangas, Subhashitas, Dharma Shastras, and Vedic Philosophy.\n2. Yoga (Asanas & Meditation) - Every day at the Gurukulam begins with Yoga practices including Yogāsanas, Prāṇāyāma, Meditation, Sūrya Namaskāra, relaxation techniques, mindfulness, prayer, and silent reflection.\n• Mind-Body Benefits: Promotes physical fitness, emotional stability, concentration, self-confidence, self-control, positive thinking, stress management, inner peace, and resilience to face life's challenges with wisdom.\n 3. Vijnana (Science & Math) - Encourages scientific curiosity while developing an appreciation for India's remarkable historical contributions to mathematics, astronomy, medicine, agriculture, architecture, metallurgy, and philosophy.\n• Critical Thinking & Modern Integration: Teaches students to ask questions, think critically, solve problems creatively, and apply scientific principles responsibly. Combines Vedic knowledge with modern academic subjects (Mathematics, Science, Social Sciences, Information Technology) through recognized NIOS certification.\n4. Krishi (Organic Agriculture & Go Seva) - An education in sustainability, responsibility, and living in harmony with nature. Includes practical training in organic farming, natural agriculture, tree plantation, water conservation, soil management, herbal gardens, and seed preservation.<br>• Go Seva & Dignity of Labour: Active participation in Go Seva (cow protection, daily feeding, and care) in the campus Goshala. Teaches patience, gratitude, environmental stewardship, and the dignity of physical labour.\n 5. Kala Kaushalya (Traditional Arts & Crafts) -  Nurtures artistic excellence, cultural appreciation, and practical life skills by introducing students to India's rich artistic traditions, ensuring knowledge is expressed through aesthetics and joyful creativity.\n• The 64 Kalas & Performing Arts: Exploration of elements of the traditional 64 Bharatiya Kalas to promote observation, communication, design thinking, and practical intelligence. Includes systematic training in classical music, Bhajans, devotional singing, Sanskrit drama, traditional crafts, and cultural performances that build confidence, teamwork, leadership, and cultural pride.",
+  "100% FREE RESIDENTIAL PROVISION": "Guided by the belief that education, food, and medicine are fundamental rights, all residential education, boarding, lodging, Sattvic food (Annadhanam), uniforms, study materials, and healthcare are provided completely free of cost for every student.",
+  "STUDENT LIFE & EXTRA-CURRICULAR ACTIVITIES": "Vibrant student life including educational tours, spiritual pilgrimages (Tirtha Yatra), temple service, cultural festivals, youth leadership camps, debate competitions, and community outreach initiatives.",
+  "Languages Taught": "Multilingual proficiency in Samskritam, Kannada, English, and Hindi."
+ },
+ "panchamukhi": {
+  "intro": "Inspired by the timeless principles of the Gurukula tradition, Panchamukhi Shikshana is a unique five-dimensional educational framework combining India's ancient knowledge systems with essential skills required to thrive in the modern world. It shapes the mind, body, character, intellect, and spirit for holistic development.",
+  "pillars": [
+   {
+    "n": 1,
+    "title": "Veda (Scriptures & Chanting)",
+    "text": "Systematic training in Vedic chanting, scriptural study, Sanskrit pronunciation, and the Guru–Shishya tradition under experienced Acharyas. Includes the study of Rigveda, Yajurveda, Upanishads, Bhagavad Gita, Vedangas, Subhashitas, Dharma Shastras, and Vedic Philosophy.",
+    "notes": []
+   },
+   {
+    "n": 2,
+    "title": "Yoga (Asanas & Meditation)",
+    "text": "Every day at the Gurukulam begins with Yoga practices including Yogāsanas, Prāṇāyāma, Meditation, Sūrya Namaskāra, relaxation techniques, mindfulness, prayer, and silent reflection.",
+    "notes": [
+     {
+      "term": "Mind-Body Benefits",
+      "text": "Promotes physical fitness, emotional stability, concentration, self-confidence, self-control, positive thinking, stress management, inner peace, and resilience to face life's challenges with wisdom."
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "title": "Vijnana (Science & Math)",
+    "text": "Encourages scientific curiosity while developing an appreciation for India's remarkable historical contributions to mathematics, astronomy, medicine, agriculture, architecture, metallurgy, and philosophy.",
+    "notes": [
+     {
+      "term": "Critical Thinking & Modern Integration",
+      "text": "Teaches students to ask questions, think critically, solve problems creatively, and apply scientific principles responsibly. Combines Vedic knowledge with modern academic subjects (Mathematics, Science, Social Sciences, Information Technology) through recognized NIOS certification."
+     }
+    ]
+   },
+   {
+    "n": 4,
+    "title": "Krishi (Organic Agriculture & Go Seva)",
+    "text": "An education in sustainability, responsibility, and living in harmony with nature. Includes practical training in organic farming, natural agriculture, tree plantation, water conservation, soil management, herbal gardens, and seed preservation.",
+    "notes": [
+     {
+      "term": "Go Seva & Dignity of Labour",
+      "text": "Active participation in Go Seva (cow protection, daily feeding, and care) in the campus Goshala. Teaches patience, gratitude, environmental stewardship, and the dignity of physical labour."
+     }
+    ]
+   },
+   {
+    "n": 5,
+    "title": "Kala Kaushalya (Traditional Arts & Crafts)",
+    "text": "Nurtures artistic excellence, cultural appreciation, and practical life skills by introducing students to India's rich artistic traditions, ensuring knowledge is expressed through aesthetics and joyful creativity.",
+    "notes": [
+     {
+      "term": "The 64 Kalas & Performing Arts",
+      "text": "Exploration of elements of the traditional 64 Bharatiya Kalas to promote observation, communication, design thinking, and practical intelligence. Includes systematic training in classical music, Bhajans, devotional singing, Sanskrit drama, traditional crafts, and cultural performances that build confidence, teamwork, leadership, and cultural pride."
+     }
+    ]
+   }
+  ]
+ },
+ "library": {
+  "overview": "Housing an extensive library and Shodhasamsthanam (Research Institute) dedicated to Veda Vijnana, Bharatiya Knowledge Systems, and manuscript preservation.",
+  "gita": "Core scriptural study, daily chanting, Parayanam, philosophical reflection, and practical life application.",
+  "bhagavatham": "In-depth study, discourses, and research on Srimad Bhagavatam, Ramayana, Mahabharata, and Puranic literature.",
+  "archives": "Collection, digitization, palm-leaf preservation, and publishing of rare Sanskrit works."
+ },
+ "classes": {
+  "sanskritam": "Structured online and offline classes (Deva Vāṇī) for spoken Sanskrit, grammar (Vyākaraṇa), conversation, and classical literature.",
+  "vedam": "Online and offline Vedic chanting classes (Deva Śruti) focusing on Rigveda, Yajurveda, Upanishads, intonation (Svara), and pronunciation (Śikṣā).",
+  "mantram": "Training in sacred oral chanting techniques (e.g., Ghana Patha tradition) for mental clarity and spiritual awareness.",
+  "shlokam": "Daily recitation of Subhashitas (wise sayings) and devotional verses to cultivate values, discipline, and moral character.",
+  "bhagavatham": "Scriptural discourses, Parayanam, and storytelling from Epics and Puranas for community spiritual enrichment."
+ },
+ "events": {
+  "celebrations": "Ganesh Chaturthi, Navaratri, Deepavali, Rama Navami, Krishna Janmashtami, Maha Shivaratri, Guru Purnima, Makara Sankranti, Ugadi, Varamahalakshmi Vrata, Karthika Deepotsava, and Veda Raksha Celebrations.",
+  "conferences": "Annual Veda Sammelana, Sanskrit Day, International Yoga Day, Vedic Conferences, Seminars, and Youth Leadership Camps."
+ },
+ "gallery": "Campus life, Temple & Goshala, Classroom learning, Yoga sessions, Vedic Chanting, Rituals (Homams/Pujas), Festivals, Seminars, and Virtual Campus Tours.",
+ "volunteers": "Teaching, Sanskrit promotion, Temple services, Event management, Farming, Library care, IT & Website support, Media/Photography, and Community outreach.",
+ "contact": "Office address, phone numbers, email, interactive location map, visiting hours (Office: Mon–Sat 9:00 AM–5:30 PM; Temple: 5:00 AM–12:00 PM & 4:00 PM–8:30 PM), admission enquiry forms, and volunteer registration."
+}

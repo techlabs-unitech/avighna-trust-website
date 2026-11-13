@@ -1,0 +1,97 @@
+.hero {
+  position: relative; isolation: isolate; overflow: hidden; color: #fff7e0;
+  min-height: clamp(620px, 88vh, 800px); display: flex; flex-direction: column; background: #2b0909;
+}
+
+/* ---------- background photographs ---------- */
+.stack { position: absolute; inset: 0; z-index: -1; }
+.bg { position: absolute; inset: 0; opacity: 0; transition: opacity 1.4s ease; background: radial-gradient(ellipse at 70% 40%, #7a1c16, #2b0909 70%); }
+.bg[data-active] { opacity: 1; }
+.glyph { position: absolute; top: 50%; left: 62%; transform: translate(-50%, -50%); color: rgba(246, 215, 124, 0.4); font-family: var(--font-sanskrit); font-size: clamp(160px, 30vw, 420px); line-height: 1; }
+.photo { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; transform: scale(1); }
+.bg[data-active] .photo { animation: drift 14s ease-out both; }
+@keyframes drift { from { transform: scale(1); } to { transform: scale(1.08); } }
+
+.veil {
+  position: absolute; inset: 0;
+  background:
+    linear-gradient(90deg, rgba(43, 9, 9, 0.94) 0%, rgba(61, 14, 14, 0.82) 36%, rgba(61, 14, 14, 0.42) 68%, rgba(43, 9, 9, 0.55) 100%),
+    linear-gradient(0deg, rgba(43, 9, 9, 0.85), rgba(43, 9, 9, 0) 34%);
+}
+.band { position: absolute; right: 0; bottom: 0; left: 0; height: 16px; background: var(--band-light) repeat-x center / auto 14px; opacity: 0.9; }
+
+/* ---------- content ---------- */
+.inner {
+  display: grid; flex: 1; grid-template-columns: minmax(0, 1.15fr) minmax(280px, 0.85fr); align-items: center; gap: clamp(24px, 4vw, 64px);
+  width: 100%; max-width: 1360px; margin: 0 auto; padding: clamp(44px, 7vh, 80px) clamp(20px, 5vw, 64px) 104px;
+}
+.copy { max-width: 640px; animation: rise 0.9s cubic-bezier(0.2, 0.7, 0.2, 1) both; }
+@keyframes rise { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: none; } }
+
+.tag { display: inline-flex; flex-direction: column; align-items: flex-start; gap: 4px; margin-bottom: 20px; font-family: var(--font-display); font-size: 1.25rem; font-weight: 700; letter-spacing: 0.02em; color: #f6d77c; }
+.tagSa { padding: 1px 10px 3px; color: #3d0e0e; font-family: var(--font-sanskrit); font-size: 0.95rem; font-weight: 400; background: linear-gradient(180deg, #f6d77c, #e3a11c); border-radius: 3px; }
+
+.title { font-family: var(--font-display); font-size: clamp(2.3rem, 4.8vw, 4.1rem); font-weight: 600; line-height: 1.06; letter-spacing: -0.005em; text-wrap: balance; }
+.text { max-width: 54ch; margin-top: 22px; color: #f1e2bd; font-size: clamp(1rem, 1.25vw, 1.15rem); line-height: 1.75; }
+.actions { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 32px; }
+
+.btnPrimary, .btnGhost {
+  display: inline-flex; align-items: center; justify-content: center; min-height: 52px; padding: 13px 28px;
+  font-family: var(--font-display); font-size: 1.15rem; font-weight: 700; letter-spacing: 0.03em; border-radius: 999px 999px 999px 4px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease, color 0.2s ease;
+}
+.btnPrimary { color: #3d0e0e; background: linear-gradient(135deg, #f6d77c, #e3a11c); border: 1.5px solid #f6d77c; box-shadow: 0 10px 24px rgba(0, 0, 0, 0.35); }
+.btnPrimary:hover { transform: translateY(-2px); box-shadow: 0 16px 30px rgba(0, 0, 0, 0.45); }
+.btnGhost { color: #fff7e0; background: rgba(255, 247, 224, 0.06); border: 1.5px solid rgba(246, 215, 124, 0.7); }
+.btnGhost:hover { color: #3d0e0e; background: #fff7e0; transform: translateY(-2px); }
+.btnPrimary:focus-visible, .btnGhost:focus-visible, .dot:focus-visible, .arrows button:focus-visible { outline: 3px solid #fff; outline-offset: 3px; }
+
+.photoNote { display: flex; gap: 8px; max-width: 54ch; margin-top: 26px; color: rgba(241, 226, 189, 0.82); font-size: 0.86rem; font-style: italic; line-height: 1.5; }
+.photoNote span { flex: none; color: #f6d77c; font-style: normal; }
+
+.emblemWrap { justify-self: center; width: min(100%, 440px); }
+
+/* ---------- controls ---------- */
+.controls {
+  position: absolute; right: 0; bottom: 30px; left: 0; display: flex; align-items: flex-end; justify-content: space-between; gap: 20px;
+  max-width: 1360px; margin: 0 auto; padding: 0 clamp(20px, 5vw, 64px);
+}
+.dots { display: flex; flex: 1; gap: clamp(8px, 1.4vw, 18px); max-width: 780px; }
+.dot { flex: 1; min-width: 0; padding: 10px 0 0; cursor: pointer; color: rgba(255, 247, 224, 0.68); text-align: left; background: none; border: 0; transition: color 0.2s ease; }
+.dot:hover, .dot[data-active] { color: #f6d77c; }
+.dotBar { display: block; height: 3px; overflow: hidden; background: rgba(255, 247, 224, 0.28); border-radius: 3px; }
+.dot[data-active] .dotBar { background: rgba(246, 215, 124, 0.5); }
+.dotFill { display: block; width: 100%; height: 100%; background: #f6d77c; transform-origin: left; animation: fill linear both; }
+@keyframes fill { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+.dotLabel { display: block; margin-top: 8px; overflow: hidden; font-family: var(--font-display); font-size: 1rem; font-weight: 700; text-overflow: ellipsis; white-space: nowrap; }
+
+.arrows { display: flex; flex: none; gap: 8px; }
+.arrows button {
+  display: grid; width: 46px; height: 46px; place-items: center; cursor: pointer; color: #fff7e0; font-size: 1.15rem;
+  background: rgba(43, 9, 9, 0.55); border: 1.5px solid rgba(246, 215, 124, 0.6); border-radius: 50%; transition: background 0.2s ease, color 0.2s ease;
+}
+.arrows button:hover { color: #3d0e0e; background: #f6d77c; }
+.pause { font-size: 0.7rem !important; letter-spacing: -0.1em; }
+
+.live { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
+/* ---------- smaller screens: the emblem becomes a soft watermark behind the words ---------- */
+@media (max-width: 960px) {
+  .hero { min-height: 640px; }
+  .inner { display: block; padding-bottom: 130px; }
+  .emblemWrap { position: absolute; top: 50%; right: -14%; z-index: -1; width: min(74vw, 400px); opacity: 0.38; transform: translateY(-52%); pointer-events: none; }
+  .veil { background: linear-gradient(0deg, rgba(43, 9, 9, 0.9), rgba(61, 14, 14, 0.62) 55%, rgba(43, 9, 9, 0.72)); }
+  .dotLabel { display: none; }
+  .dots { gap: 8px; }
+  .dot { padding-top: 16px; }
+}
+@media (max-width: 520px) {
+  .btnPrimary, .btnGhost { flex: 1 1 100%; }
+  .controls { bottom: 22px; }
+  .pause { display: none !important; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .bg { transition: none; }
+  .bg[data-active] .photo, .copy, .dotFill { animation: none; }
+  .dotFill { transform: none; }
+}
