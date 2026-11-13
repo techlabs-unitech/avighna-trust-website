@@ -1,0 +1,54 @@
+.stack {
+  position: fixed;
+  right: max(20px, env(safe-area-inset-right));
+  bottom: calc(max(20px, env(safe-area-inset-bottom)) + 70px); /* sits just above the chat icon */
+  z-index: 60;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 10px;
+}
+
+.pill {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 52px;
+  padding: 5px 20px 5px 6px;
+  color: #fff;
+  text-decoration: none;
+  border: 3px solid #fff;
+  border-radius: 999px;
+  box-shadow: 0 10px 26px rgba(58, 30, 12, 0.32);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.pill:hover { transform: translateY(-3px); box-shadow: 0 16px 32px rgba(58, 30, 12, 0.4); }
+.pill:focus-visible { outline: 3px solid var(--gold); outline-offset: 3px; }
+
+.donate { background: linear-gradient(135deg, #c4301f, #8f1717); }
+.volunteer { background: linear-gradient(135deg, #2f3a85, #1d2457); }
+
+.icon {
+  display: grid;
+  flex: none;
+  width: 38px;
+  height: 38px;
+  place-items: center;
+  color: #fff7e0;
+  background: rgba(255, 255, 255, 0.16);
+  border-radius: 50%;
+}
+
+.text { display: flex; flex-direction: column; line-height: 1.1; }
+.text strong { font-family: var(--font-display); font-size: 1.12rem; font-weight: 700; letter-spacing: 0.02em; }
+.text small { color: #f6d77c; font-family: var(--font-sanskrit); font-size: 0.78rem; }
+
+@media (max-width: 520px) {
+  .pill { min-height: 46px; padding-right: 15px; }
+  .icon { width: 32px; height: 32px; }
+  .text strong { font-size: 1rem; }
+  .text small { display: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .pill { transition: none; }
+}
