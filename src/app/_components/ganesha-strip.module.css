@@ -1,0 +1,25 @@
+.strip {
+  position: relative; padding: 9px 0 10px; color: #fff7e0;
+  background: radial-gradient(ellipse at 50% 0%, rgba(227, 161, 28, 0.18), transparent 70%), linear-gradient(180deg, #4a0f0f, #2b0909);
+  border-bottom: 1px solid rgba(240, 207, 122, 0.35);
+}
+.strip::before, .strip::after { content: ""; position: absolute; right: 0; left: 0; height: 8px; background: var(--band-light) repeat-x center / auto 7px; opacity: 0.8; }
+.strip::before { top: 0; }
+.strip::after { bottom: 0; }
+
+.viewport { position: relative; overflow: hidden; padding: 5px 0; -webkit-mask-image: linear-gradient(90deg, transparent, #000 5%, #000 95%, transparent); mask-image: linear-gradient(90deg, transparent, #000 5%, #000 95%, transparent); }
+.track { display: flex; width: max-content; animation: slide 90s linear infinite; will-change: transform; }
+.strip:hover .track, .strip:focus-within .track { animation-play-state: paused; }
+@keyframes slide { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+
+.set { display: flex; flex: none; gap: 10px; padding-right: 10px; margin: 0; list-style: none; }
+.tile {
+  flex: none; width: clamp(76px, 7.5vw, 112px); aspect-ratio: 1 / 1; overflow: hidden;
+  border: 1.5px solid #e3a11c; border-radius: 7px 7px 3px 3px; background: #3d0e0e; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4), inset 0 0 0 1px rgba(255, 220, 140, 0.18);
+}
+.tile img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: 50% 40%; }
+
+@media (prefers-reduced-motion: reduce) {
+  .track { animation: none; }
+  .viewport { overflow-x: auto; -webkit-mask-image: none; mask-image: none; }
+}
