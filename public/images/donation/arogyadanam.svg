@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="A tulsi plant and a glowing heart, the gift of health">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#d9eef0"/><stop offset=".5" stop-color="#7cc3a4"/><stop offset="1" stop-color="#1f6b4a"/></linearGradient>
+    <radialGradient id="glow" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#fff6cf"/><stop offset=".5" stop-color="#f6d77c" stop-opacity=".7"/><stop offset="1" stop-color="#f6d77c" stop-opacity="0"/></radialGradient>
+    <linearGradient id="pot" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#d8793f"/><stop offset="1" stop-color="#8b3a1c"/></linearGradient>
+    <linearGradient id="leaf" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7fc46b"/><stop offset="1" stop-color="#2f6a3d"/></linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <circle cx="400" cy="190" r="190" fill="url(#glow)"/>
+  <!-- heart -->
+  <path d="M400 250c-60-62-150-22-150 46 0 56 70 98 150 148 80-50 150-92 150-148 0-68-90-108-150-46z" transform="translate(0 -120) scale(1 1)" fill="#c4301f" stroke="#fff7e0" stroke-width="6"/>
+  <path d="M400 112v70M365 147h70" stroke="#fff7e0" stroke-width="16" stroke-linecap="round" transform="translate(0 20)"/>
+  <!-- tulsi plant -->
+  <g fill="none" stroke="#2f6a3d" stroke-width="7" stroke-linecap="round"><path d="M400 470V350"/><path d="M400 430c-50-20-80-50-90-90"/><path d="M400 410c50-20 80-50 90-90"/><path d="M400 380c-30-30-40-60-36-92"/><path d="M400 370c30-30 42-58 40-90"/></g>
+  <g fill="url(#leaf)" stroke="#1f4d2c" stroke-width="3">
+    <ellipse cx="305" cy="335" rx="34" ry="18" transform="rotate(-50 305 335)"/><ellipse cx="495" cy="315" rx="34" ry="18" transform="rotate(50 495 315)"/>
+    <ellipse cx="350" cy="390" rx="32" ry="17" transform="rotate(-30 350 390)"/><ellipse cx="450" cy="385" rx="32" ry="17" transform="rotate(30 450 385)"/>
+    <ellipse cx="362" cy="285" rx="30" ry="16" transform="rotate(-70 362 285)"/><ellipse cx="440" cy="276" rx="30" ry="16" transform="rotate(70 440 276)"/>
+    <ellipse cx="400" cy="330" rx="26" ry="15" transform="rotate(90 400 330)"/>
+  </g>
+  <!-- pot -->
+  <path d="M310 462h180l-22 110H332z" fill="url(#pot)" stroke="#5a2410" stroke-width="4"/>
+  <rect x="300" y="450" width="200" height="26" rx="6" fill="#e08a4a" stroke="#5a2410" stroke-width="4"/>
+  <path d="M330 520h140M338 545h124" stroke="#fff3c4" stroke-width="4" opacity=".55"/>
+  <g fill="#fff7e0" opacity=".5"><circle cx="110" cy="120" r="10"/><circle cx="690" cy="470" r="14"/><circle cx="650" cy="110" r="8"/><circle cx="130" cy="470" r="8"/></g>
+</svg>

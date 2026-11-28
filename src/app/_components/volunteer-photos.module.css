@@ -1,0 +1,10 @@
+.grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: clamp(10px, 2vw, 20px); margin: 8px 0 32px; padding: 0; list-style: none; }
+.grid figure { position: relative; margin: 0; overflow: hidden; background: #fff; border: 3px solid #e3a11c; border-radius: 14px; box-shadow: 0 10px 26px rgba(58, 30, 12, 0.16); }
+.grid img { display: block; width: 100%; height: auto; aspect-ratio: 4 / 3; object-fit: cover; transition: transform 0.5s ease; }
+.grid figure:hover img { transform: scale(1.04); }
+.grid figcaption {
+  position: absolute; right: 0; bottom: 0; left: 0; padding: 26px 12px 9px; color: #fff7e0; font-size: clamp(0.82rem, 1.5vw, 1rem); font-weight: 600; letter-spacing: 0.02em;
+  background: linear-gradient(0deg, rgba(29, 20, 12, 0.85), rgba(29, 20, 12, 0));
+}
+@media (max-width: 640px) { .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (prefers-reduced-motion: reduce) { .grid img { transition: none; } }

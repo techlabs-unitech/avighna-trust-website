@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Two elders resting under a banyan tree beside a lit lamp, shelter for our elders">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2f3a85"/><stop offset=".55" stop-color="#e8892a"/><stop offset="1" stop-color="#f6d77c"/></linearGradient>
+    <linearGradient id="grass" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4f7a3a"/><stop offset="1" stop-color="#2f5d3a"/></linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#sky)"/>
+  <circle cx="400" cy="390" r="120" fill="#fff3c4" opacity=".75"/><circle cx="400" cy="390" r="80" fill="#fff8e1" opacity=".85"/>
+  <g fill="#fff7e0" opacity=".8"><circle cx="90" cy="70" r="3"/><circle cx="210" cy="130" r="2.5"/><circle cx="330" cy="60" r="3"/><circle cx="560" cy="90" r="2.5"/><circle cx="700" cy="50" r="3"/><circle cx="640" cy="160" r="2"/></g>
+  <!-- banyan -->
+  <path d="M250 470c-4-70 8-120 20-170h40c14 50 22 100 20 170z" fill="#5a2f14"/>
+  <g fill="#2f5d3a"><circle cx="230" cy="250" r="95"/><circle cx="320" cy="200" r="105"/><circle cx="410" cy="250" r="90"/><circle cx="170" cy="310" r="65"/><circle cx="470" cy="310" r="60"/></g>
+  <g fill="#3a7d49" opacity=".7"><circle cx="290" cy="230" r="55"/><circle cx="380" cy="270" r="45"/><circle cx="210" cy="290" r="40"/></g>
+  <g stroke="#5a2f14" stroke-width="4" opacity=".7"><path d="M180 330v110M440 335v95M205 345v90"/></g>
+  <!-- ground -->
+  <path d="M0 470c150-30 300-30 400-10s250 22 400-8v148H0z" fill="url(#grass)"/>
+  <!-- elders -->
+  <g>
+    <!-- elder 1 -->
+    <circle cx="520" cy="372" r="24" fill="#e0b48a"/><path d="M497 366c2-22 44-22 46 0-10-8-36-8-46 0z" fill="#f5f1e8"/>
+    <path d="M492 470c-6-52 6-78 28-78s34 26 28 78z" fill="#fff7e0" stroke="#d9c9a0" stroke-width="3"/>
+    <path d="M492 470h56" stroke="#c4301f" stroke-width="10"/>
+    <!-- elder 2 -->
+    <circle cx="600" cy="382" r="22" fill="#d9a27a"/><path d="M579 380c4-22 38-22 42 0-8-9-34-9-42 0z" fill="#e6e1d6"/>
+    <path d="M572 470c-6-48 6-72 28-72s34 24 28 72z" fill="#e3a11c" stroke="#b9700f" stroke-width="3"/>
+    <path d="M640 380v90" stroke="#5a2f14" stroke-width="7" stroke-linecap="round"/><path d="M632 380c0-10 16-10 16 0" fill="none" stroke="#5a2f14" stroke-width="6" stroke-linecap="round"/>
+  </g>
+  <!-- diya -->
+  <g transform="translate(400 500)"><path d="M-34 0h68c-4 20-18 28-34 28S-30 20-34 0z" fill="#b9700f" stroke="#7a3d08" stroke-width="3"/><path d="M0-4c-12-14-6-26 0-38 6 12 12 24 0 38z" fill="#ffd23f" stroke="#e8892a" stroke-width="2"/></g>
+</svg>

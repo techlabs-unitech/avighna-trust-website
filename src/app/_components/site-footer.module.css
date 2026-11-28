@@ -1,0 +1,75 @@
+.footer {
+  position: relative; color: #ecdcb4;
+  background: radial-gradient(ellipse at 85% 0%, rgba(227, 161, 28, 0.18), transparent 45%), linear-gradient(180deg, #4a0f0f, #2b0909);
+}
+.footer::before { content: ""; position: absolute; top: 0; right: 0; left: 0; height: 16px; background: var(--band-light) repeat-x center / auto 14px; }
+
+.main {
+  display: grid; grid-template-columns: minmax(260px, 1.15fr) minmax(280px, 1.2fr) minmax(170px, 0.7fr) minmax(280px, 1.1fr);
+  align-items: start; gap: clamp(28px, 4vw, 56px); max-width: 1380px; margin: 0 auto; padding: 76px clamp(20px, 5vw, 64px) 48px;
+}
+
+/* ---- logo + Ganesha slider ---- */
+.brandCol { display: flex; flex-direction: column; align-items: flex-start; gap: 18px; min-width: 0; }
+.logoLink { display: block; width: min(100%, 280px); padding: 10px 14px; background: #fffaf0; border: 2px solid var(--gold); border-radius: 14px 14px 14px 4px; box-shadow: 0 10px 24px rgba(0, 0, 0, 0.35); transition: transform 0.25s ease; }
+.logoLink:hover { transform: translateY(-2px); }
+.logoLink:focus-visible, .col a:focus-visible, .bottom a:focus-visible { outline: 2px solid var(--gold); outline-offset: 3px; }
+.logo { display: block; width: 100%; height: auto; }
+
+/* ---- headings ---- */
+.col h2, .newsletter h2, .followLabel {
+  color: #f0cf7a; font-family: var(--font-display); font-size: 1.15rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase;
+}
+.col h2, .newsletter h2 { margin-bottom: 16px; padding-bottom: 8px; border-bottom: 1px solid rgba(240, 207, 122, 0.3); }
+
+/* ---- link columns ---- */
+.col { min-width: 0; }
+.links { display: grid; gap: 2px; margin: 0; padding: 0; list-style: none; }
+.linksTwo { grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 20px; }
+.col a { position: relative; display: inline-flex; flex-direction: column; padding: 6px 0; color: #ecdcb4; line-height: 1.25; transition: color 0.2s ease, transform 0.2s ease; }
+.col a span { color: #d9b866; font-family: var(--font-sanskrit); font-size: 0.82rem; }
+.col a::after { content: ""; position: absolute; right: 0; bottom: 3px; left: 0; height: 1px; background: var(--gold); transform: scaleX(0); transform-origin: left; transition: transform 0.25s ease; }
+.col a:hover { color: #fff; transform: translateX(3px); }
+.col a:hover::after { transform: scaleX(1); }
+
+/* ---- newsletter + social ---- */
+.newsletter { min-width: 0; }
+.newsletter p { margin-bottom: 12px; color: #e6d6b0; font-size: 0.95rem; line-height: 1.6; }
+.follow { margin-top: 22px; }
+.followLabel { font-size: 0.95rem; }
+.social { display: flex; flex-wrap: wrap; gap: 10px; margin: 10px 0 0; padding: 0; list-style: none; }
+.socialLink {
+  display: grid; width: 42px; height: 42px; place-items: center; color: #ecdcb4; background: rgba(255, 255, 255, 0.07);
+  border: 1px solid rgba(240, 207, 122, 0.4); border-radius: 50%; transition: transform 0.2s ease, background 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+.socialLink:hover { color: #fff; background: var(--gold-deep); border-color: var(--gold); transform: translateY(-3px); }
+.socialLink:focus-visible { outline: 2px solid var(--gold); outline-offset: 3px; }
+
+/* ---- bottom bar ---- */
+.bottom {
+  display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px 24px; max-width: 1380px; margin: 0 auto;
+  padding: 22px clamp(20px, 5vw, 64px); color: #cdb98a; font-size: 0.88rem; border-top: 1px solid rgba(240, 207, 122, 0.25);
+}
+.bottom span:nth-child(2) { color: #f0cf7a; font-family: var(--font-sanskrit); font-size: 1.05rem; }
+.policies { display: inline-flex; flex-wrap: wrap; gap: 6px 18px; }
+.bottom a:hover { color: #fff; }
+.disclaimer {
+  max-width: 1380px; margin: 0 auto; padding: 0 max(clamp(20px, 5vw, 64px), 96px) 26px clamp(20px, 5vw, 64px); color: #bfae82; font-size: 0.78rem; line-height: 1.65;
+}
+.disclaimer strong { color: #d9c690; font-weight: 600; }
+
+@media (max-width: 1100px) {
+  .main { grid-template-columns: 1fr 1fr; }
+  .newsletter { grid-column: 1 / -1; }
+}
+@media (max-width: 720px) {
+  .main { grid-template-columns: 1fr; padding-top: 56px; }
+  .brandCol { align-items: center; }
+  .newsletter { grid-column: auto; }
+  .disclaimer { padding-right: clamp(20px, 5vw, 64px); }
+}
+@media (max-width: 460px) {
+  .bottom { flex-direction: column; align-items: flex-start; }
+  .linksTwo { grid-template-columns: 1fr; }
+}
+@media (prefers-reduced-motion: reduce) { .socialLink, .col a, .col a::after, .logoLink { transition: none; } }

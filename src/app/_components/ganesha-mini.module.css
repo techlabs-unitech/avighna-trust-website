@@ -1,0 +1,18 @@
+.viewport {
+  position: relative; width: 100%; max-width: 420px; overflow: hidden; padding: 6px 0;
+  -webkit-mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent);
+  mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent);
+}
+.track { display: flex; width: max-content; animation: slide 70s linear infinite; will-change: transform; }
+.viewport:hover .track { animation-play-state: paused; }
+@keyframes slide { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+.set { display: flex; flex: none; gap: 8px; padding-right: 8px; margin: 0; list-style: none; }
+.tile {
+  flex: none; width: 56px; height: 56px; overflow: hidden; background: #3d0e0e;
+  border: 1.5px solid #e3a11c; border-radius: 28px 28px 5px 5px; box-shadow: 0 3px 8px rgba(0, 0, 0, 0.4);
+}
+.tile img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: 50% 35%; }
+@media (prefers-reduced-motion: reduce) {
+  .track { animation: none; }
+  .viewport { overflow-x: auto; -webkit-mask-image: none; mask-image: none; }
+}

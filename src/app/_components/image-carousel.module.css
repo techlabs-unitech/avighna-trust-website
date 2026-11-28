@@ -1,0 +1,30 @@
+.carousel { position: relative; margin: 8px 0 28px; }
+.rail {
+  display: flex; margin: 0; padding: 0; overflow-x: auto; list-style: none; scroll-snap-type: x mandatory; scrollbar-width: none;
+  background: #1d2457; border: 3px solid #e3a11c; border-radius: 18px; box-shadow: 0 18px 40px rgba(58, 30, 12, 0.25); overscroll-behavior-x: contain;
+}
+.rail::-webkit-scrollbar { display: none; }
+.rail:focus-visible { outline: 3px solid #a3201f; outline-offset: 4px; }
+.slide { position: relative; flex: 0 0 100%; aspect-ratio: 16 / 9; max-height: 480px; scroll-snap-align: center; scroll-snap-stop: always; }
+.slide img { display: block; width: 100%; height: 100%; object-fit: cover; user-select: none; }
+.caption {
+  position: absolute; right: 0; bottom: 0; left: 0; margin: 0; padding: 44px clamp(54px, 8vw, 90px) 36px clamp(16px, 4vw, 32px); color: #fff7e0;
+  font-size: clamp(0.95rem, 1.6vw, 1.15rem); line-height: 1.5; background: linear-gradient(0deg, rgba(29, 20, 12, 0.85), rgba(29, 20, 12, 0));
+}
+.nav {
+  position: absolute; top: 50%; z-index: 2; display: grid; width: 46px; height: 46px; place-items: center; padding: 0 0 4px; cursor: pointer;
+  color: #1d2457; font-size: 2rem; line-height: 1; background: rgba(255, 247, 224, 0.94); border: 0; border-radius: 50%;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); transform: translateY(-50%); transition: background 0.2s ease, color 0.2s ease;
+}
+.nav:hover { color: #fff; background: #c4560f; }
+.nav:focus-visible, .dot:focus-visible { outline: 3px solid #fff; outline-offset: 2px; }
+.prev { left: 12px; }
+.next { right: 12px; }
+.dots { position: absolute; right: 0; bottom: 12px; left: 0; z-index: 2; display: flex; justify-content: center; gap: 8px; }
+.dot { width: 10px; height: 10px; padding: 0; cursor: pointer; background: rgba(255, 247, 224, 0.5); border: 0; border-radius: 999px; transition: width 0.25s ease, background 0.25s ease; }
+.dot[aria-current="true"] { width: 28px; background: #f6d77c; }
+@media (max-width: 640px) {
+  .slide { aspect-ratio: 4 / 3; }
+  .nav { width: 38px; height: 38px; font-size: 1.6rem; }
+}
+@media (prefers-reduced-motion: reduce) { .dot, .nav { transition: none; } }

@@ -1,0 +1,9 @@
+/* Divider: ——•  [Om emblem]  •—— */
+.row { display: flex; align-items: center; gap: 10px; width: 100%; }
+.line { position: relative; flex: 1 1 0; height: 1px; opacity: 0.85; background: currentColor; }
+.line::after { content: ""; position: absolute; top: 50%; width: 5px; height: 5px; background: currentColor; border-radius: 50%; transform: translateY(-50%); }
+.lineLeft { background: linear-gradient(90deg, transparent, currentColor); }
+.lineRight { background: linear-gradient(270deg, transparent, currentColor); }
+.lineLeft::after { right: 0; }
+.lineRight::after { left: 0; }
+.emblem { flex: 0 0 auto; display: block; width: 34px; height: auto; aspect-ratio: 249 / 288; overflow: visible; }
